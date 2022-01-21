@@ -1,0 +1,21 @@
+{
+    "name": "youtube-video-downloader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.2",
+        "nodemon": "^2.0.15",
+        "npm-start-command": "^1.0.1",
+        "ytdl-core": "^4.10.0"
+    },
+    "devDependencies": {},
+    "author": "Tirtha Das",
+    "license": "ISC"
+}

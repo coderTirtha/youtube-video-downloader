@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-part {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 38vh;
+}
+
+.main-part input {
+    width: 40%;
+    margin: 2rem .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid #333;
+    color: #000;
+}
+
+.download-btn {
+    background-color: #ff831e;
+    outline: none;
+    color: #fff;
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #333;
+}
